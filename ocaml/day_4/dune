@@ -1,0 +1,10 @@
+(executable
+ (name day_4)
+ (libraries base stdio)
+ (preprocess 
+   (pps
+   ppx_deriving.show
+   ppx_deriving.map
+   ppx_deriving.iter
+   ppx_deriving.fold
+   )))
